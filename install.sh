@@ -47,6 +47,6 @@ sudo add-apt-repository -y ppa:cartodb/postgresql-9.3
 sudo apt-get update
 
 
-aptitude show ~i >installed_packages.txt  #spit out detailed list of all installed packages into home folder.
+aptitude show ~i >installed_packages.txt  #spit out detailed list of all installed packages into current folder.
 echo "Done"
 
