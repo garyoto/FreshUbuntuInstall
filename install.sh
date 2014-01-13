@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#automated install of Ubuntu 12.04
+#automated install of Ubuntu 12.04 packages
 #Author: Garret Wais <garretlewis@gmail.com>
 
 sudo apt-get update
