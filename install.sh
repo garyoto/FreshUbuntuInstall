@@ -46,6 +46,20 @@ sudo add-apt-repository -y ppa:cartodb/gis #There are overlaps of packages in Ca
 sudo add-apt-repository -y ppa:cartodb/postgresql-9.3
 sudo apt-get update
 
+#install phonegap and denpendencies
+#node
+sudo apt-get install -y python-software-properties g++ make
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install -y nodejs
+
+#phonegap
+sudo npm install -g phonegap
+
+#openjdk
+sudo apt-get install -y openjdk-7-jdk openjdk-7-jre
+
+
 
 aptitude show ~i >installed_packages.txt  #spit out detailed list of all installed packages into current folder.
 echo "Done"
