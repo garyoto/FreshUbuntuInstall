@@ -60,6 +60,8 @@ sudo apt-get update
 sudo apt-get -y install postgresql-9.1-pgrouting osm2pgrouting pgrouting-workshop
 sudo apt-get update
 
+# Add rasterio, fiona, and shapely
+
 #install phonegap and denpendencies
 #node
 sudo apt-get install -y python-software-properties g++ make
