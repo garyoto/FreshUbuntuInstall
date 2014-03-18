@@ -49,7 +49,7 @@ sudo apt-get -y install qgis=2.1.0+git20131214~c4b2480~precise1  #latest as of 2
 sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main" >> /etc/apt/sources.list'
 wget --quiet -O - http://apt.postgresql.org/pub/repos/apt/ACCC4CF8.asc | sudo apt-key add -
 sudo apt-get update
-sudo apt-get install pgadmin3 postgresql-contrib-9.1
+sudo apt-get install pgadmin3 postgresql-contrib-9.1  #Important to install contrib package b/c it contains hstore, fuzzymatch, etc.
 sudo apt-get update
 
 # Add Ubuntu-GIS Unstable repository
