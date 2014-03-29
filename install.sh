@@ -35,7 +35,7 @@ sudo apt-get -y install libcgal*               # needed for pgrouting
 sudo pip install nose                      # unit testing framework
 sudo pip install StarCluster               # to help manage clusters on AWS
 sudo pip install virtualenv
-sudo pip install virtualenvwrapper
+sudo pip install virtualenvwrapper         # See additional configuration steps for virtualenvwrapper here: http://roundhere.net/journal/virtualenv-ubuntu-12-10/
 sudo pip install ipython-cluster-helper
 sudo pip install ipython-sql               #RDBMS access via ipython
 
